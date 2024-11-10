@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Информация об актере</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#photo">Фото актрисы</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#biography">Биография</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#films">Карточки с фильмами</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Фильмы</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div id="photo" class="carousel slide" data-bs-ride="carousel">      
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="https://www.kino-teatr.ru/acter/album/374516/1184902.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                <img src="https://www.ok-magazine.ru/images/cache/2021/11/16/q90_1111931_7624fb80437eb5e415f3fe0ce.jpeg" alt="Chicago" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                <img src="https://www.kino-teatr.ru/acter/album/3391/1000303.jpg" alt="New York" class="d-block" style="width:100%">
+                </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#photo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#photo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            </div> 
+        </div>
+
+        <div id="biography" class="actor">
+            <button
+            type="button"
+            class="btn btn-dark"
+            data-bs-toggle="collapse"
+            data-bs-target="#info"
+            >
+            Биография актрисы
+            </button>
+            <div id="info" class="collapse">
+                Елена Подкаминская — актриса театра и кино, родилась 10 апреля 1979 года в Москве.<br><br>
+                В 2001 году окончила Театральное училище имени Щукина. На последнем курсе Щукинского училища Подкаминскую приняли в труппу Театра Сатиры, в котором она прослужила 17 лет.
+                В кино актриса дебютировала в 2002 году. Её первой работой стал проект Сергея Урсуляка «Неудача Пуаро», где она появилась в роли Урсулы Борн.
+                Всероссийскую славу актрисе принесла роль арт-директора ресторана «Клод Моне» Виктории Сергеевны Гончаровой в комедийном сериале «Кухня».<br><br>
+                С 2009 года по 2015 год Подкаминская состояла в браке с предпринимателем Александром Пляцевым. В декабре 2010 года у них родилась дочь Полина. В 2017 году актриса вышла замуж за бизнесмена Дениса Гущина. В том же году у пары появилась дочь Ева. В феврале 2020 года Подкаминская родила сына Александра.<br><br>
+                Актриса ведет здоровый образ жизни: она полностью отказалась от употребления алкоголя, регулярно занимается йогой и следит за питанием.
+            </div>
+        </div>
+
+        <div id="films" class="card bg-dark text-white">
+            <div class="card-header"><b>Жена олигарха(2021)</b></div>
+            <div class="card-body">
+                <img src="https://i.pinimg.com/736x/58/d8/2b/58d82b7e19e193e682dfac09fa7d7de1.jpg">
+                <p>Год производства: 2021(2 сезона)</p>
+                <p>Страна: Россия</p>
+                <p>Жанр: комедия</p>
+                <p>Время серии: 24 мин</p>
+                <p>Возраст: 18+</p><br>
+                <p>О фильме:</p>
+                <p>Жизнь Альбины меняется в один миг: под угрозой ареста муж-олигарх бросает её, прихватив с собой все деньги. Всё, что осталось от супруга, — двое детей и российская фабрика на грани банкротства. Теперь Альбина вынуждена забыть о роскошной жизни в лондонском особняке и вспомнить то, что ей говорили на бизнес-курсах. Только начинать жизнь с чистого листа в провинциальном городке без гроша в кармане её никто не учил.</p>
+                <a href="https://www.kinopoisk.ru/series/4313093/" class="btn btn-primary">Кинопоиск</a>
+            </div>
+        </div>
+
+        <div class="card bg-dark text-white">
+            <div class="card-header"><b>ИП Пирогова(2019)</b></div>
+            <div class="card-body">
+                <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/e33474e4-3d30-45b7-a796-cee77b4f4390/1920x">
+                <p>Год производства: 2019(4 сезона)</p>
+                <p>Страна: Россия</p>
+                <p>Жанр: комедия</p>
+                <p>Время серии: 24 мин</p>
+                <p>Возраст: 16+</p><br>
+                <p>О фильме:</p>
+                <p>Домохозяйка Вера на протяжении пятнадцати лет брака была поглощена семейными заботами. После измены мужа, чтобы прокормить себя и родных, женщина начала свой «сТОРТап» в кондитерском искусстве. Дочь-подросток, пожилой чудной отец и эксцентричная сестра стали частью сладкого бизнеса.</p>
+                <a href="https://www.kinopoisk.ru/series/1195651/" class="btn btn-primary">Кинопоиск</a>
+            </div>
+        </div>
+        
+        <div class="card bg-dark text-white">
+            <div class="card-header"><b>Последний аксель(2021)</b></div>
+            <div class="card-body">
+                <img src="https://avatars.mds.yandex.net/i?id=f126cc6a6b22ce90dd54bf3ce0e0d2bb-5672616-images-thumbs&n=13">
+                <p>Год производства: 2021(1 сезон)</p>
+                <p>Страна: Россия</p>
+                <p>Жанр: драма, спорт</p>
+                <p>Время серии: 47 мин</p>
+                <p>Возраст: 18+</p><br>
+                <p>О фильме:</p>
+                <p>После внезапной смерти отца-тирана Катя приезжает в Москву, чтобы попасть в команду не менее жесткого тренера и выступить на Чемпионате мира по фигурному катанию. Катя хочет победить и получить грант, с помощью которого она и ее младшая сестра обретут долгожданную свободу.</p>
+                <a href="https://www.kinopoisk.ru/series/4393373/" class="btn btn-primary">Кинопоиск</a>
+            </div>
+        </div>
+    </body>
+</html>
